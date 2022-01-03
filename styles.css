@@ -1,11 +1,7 @@
-body {
-  background: orange;
-}
-
 table, th, td {
-  border: 1px solid black;
-  border-collapse: black;
+  border: 1px solid whitesmoke;
+  border-collapse: true;
 }
 th, td {
-  background-color: white;
+  background-color: burlywood;
 }
