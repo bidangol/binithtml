@@ -4,11 +4,13 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script>
     function roll() {
-      console.log("Rolling a dice");
+      let number = Math.floor(Math.random() * 6) + 1;
+      console.log("Rolling a dice: ", number);
+      document.getElementById("dice").innerHTML = number;
     }
     </script>
   </head>
-<body>
+<body style="background-color:yellow">
   <h1>Play game</h1>
   <h1 id="dice">5</h1>
 
