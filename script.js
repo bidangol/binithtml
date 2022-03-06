@@ -1,4 +1,70 @@
 console.log('hello!')
+
+function checkAnswer() {
+
+  // price question
+  var price = document.getElementById('price').value;
+  var priceCorrect = document.getElementById("priceCorrect");
+  var priceIncorrect = document.getElementById("priceIncorrect");
+  console.log(priceCorrect);
+  if (price == "10g") {
+    priceCorrect.style.visibility = 'visible';
+    priceIncorrect.style.visibility = 'hidden';
+  } else {
+    priceCorrect.style.visibility = 'hidden';
+    priceIncorrect.style.visibility = 'visible';
+  }
+
+  // for me question
+
+  var forMe = document.getElementById('forMe').value;
+  var forMeCorrect = document.getElementById("forMeCorrect");
+  var forMeIncorrect = document.getElementById("forMeIncorrect");
+
+  if (forMe == "5g") {
+    forMeCorrect.style.visibility = 'visible';
+    forMeIncorrect.style.visibility = 'hidden';
+  } else {
+    forMeCorrect.style.visibility = 'hidden';
+    forMeIncorrect.style.visibility = 'visible';
+  }
+
+   // howMuch question
+
+   var howMuch = document.getElementById('howMuch').value;
+   var howMuchCorrect = document.getElementById("howMuchCorrect");
+   var howMuchIncorrect = document.getElementById("howMuchIncorrect");
+
+   if (howMuch == "5g") {
+    howMuchCorrect.style.visibility = 'visible';
+    howMuchIncorrect.style.visibility = 'hidden';
+  } else {
+    howMuchCorrect.style.visibility = 'hidden';
+    howMuchIncorrect.style.visibility = 'visible';
+  }
+
+   // hogwarts question
+
+   var hogwarts = document.getElementById('hogwarts').value;
+   console.log(hogwarts);
+   var hogwartsCorrect = document.getElementById("hogwartsCorrect");
+   var hogwartsIncorrect = document.getElementById("hogwartsIncorrect");
+   
+   if (hogwarts == "f course you know a bit about Hogwarts" || hogwarts == "' course you know a bit about Hogwarts") {
+     hogwartsCorrect.style.visibility = 'visible';
+     hogwartsIncorrect.style.visibility = 'hidden';
+   } else {
+     hogwartsCorrect.style.visibility = 'hidden';
+     hogwartsIncorrect.style.visibility = 'visible';
+
+   }
+}  
+
+ 
+
+
+
+
 var x = 6;
 console.log(x);
 var y = 2;
@@ -23,20 +89,20 @@ console.log(index)
 
 console.log("start with H");
 var newBasket = Family.filter(name => name.startsWith("H"));
-console.log(newBasket);
+console.log("newBasket");
 
 console.log("Have potter");
 var potterNames = Family.filter(name => name.includes("potter"));
-console.log(potterNames)
+console.log("potterNames");
 
 console.log("Have Weasley");
 var weasleygo = Family.filter(name => name.includes("Weasley"));
-console.log(weasleygo);
+console.log("weasleygo");
 
 console.log("Have lly");
 var llymolly = Family.filter(name => name.includes("lly"));
-console.log(llymolly);
+console.log("llymolly");
 
 console.log("Have r");
 var rharry = Family.filter(name => name.includes("r"));
-console.log(rharry);
+console.log("rharry");
