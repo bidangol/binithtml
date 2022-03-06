@@ -56,6 +56,21 @@ function checkAnswer() {
    } else {
      hogwartsCorrect.style.visibility = 'hidden';
      hogwartsIncorrect.style.visibility = 'visible';
+   }
+
+     // what question
+
+     var what = document.getElementById('what').value;
+   console.log(what);
+   var whatCorrect = document.getElementById("whatCorrect");
+   var whatIncorrect = document.getElementById("whatIncorrect");
+   
+   if (what == "WHAT ARE THOSE?!" || what == "What are those?!" || what == "WHAT ARE those?!") {
+     whatCorrect.style.visibility = 'visible';
+     whatIncorrect.style.visibility = 'hidden';
+   } else {
+     whatCorrect.style.visibility = 'hidden';
+     whatIncorrect.style.visibility = 'visible';
 
    }
 }  
