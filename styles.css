@@ -5,3 +5,32 @@ table, th, td {
 th, td {
   background-color: burlywood;
 }
+
+/* marquee */
+.holder {
+  background:#ccc;
+  padding:0.5rem;
+  overflow: hidden;
+}
+.content {
+  animation : slide 5s linear infinite;
+  
+}
+
+@keyframes slide {
+  0% {
+    transform: translatex(100%)
+  }
+
+  100% {
+    transform: translatex(0%)
+  }
+}
+
+svg {
+  fill: currentColor;
+  height: auto;
+  max-width: 66vmin;
+  transform-origin: center;
+  width: 60%;
+}

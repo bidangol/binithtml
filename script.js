@@ -21,7 +21,7 @@ function checkAnswer() {
   var forMeCorrect = document.getElementById("forMeCorrect");
   var forMeIncorrect = document.getElementById("forMeIncorrect");
 
-  if (forMe == "5g") {
+  if (forMe == "5g.") {
     forMeCorrect.style.visibility = 'visible';
     forMeIncorrect.style.visibility = 'hidden';
   } else {
@@ -71,6 +71,22 @@ function checkAnswer() {
    } else {
      whatCorrect.style.visibility = 'hidden';
      whatIncorrect.style.visibility = 'visible';
+
+   }
+
+   // spell question
+
+   var spell = document.getElementById('spell').value;
+   console.log(spell);
+   var spellCorrect = document.getElementById("spellCorrect");
+   var spellIncorrect = document.getElementById("spellIncorrect");
+   
+   if (spell == "fat rat into yellow" || spell "fat rat in to yellow") {
+     spellCorrect.style.visibility = 'visible';
+     spellIncorrect.style.visibility = 'hidden';
+   } else {
+     spellCorrect.style.visibility = 'hidden';
+     spellIncorrect.style.visibility = 'visible';
 
    }
 }  
