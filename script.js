@@ -81,7 +81,7 @@ function checkAnswer() {
    var spellCorrect = document.getElementById("spellCorrect");
    var spellIncorrect = document.getElementById("spellIncorrect");
    
-   if (spell == "fat rat into yellow" || spell "fat rat in to yellow") {
+   if (spell == "fat rat into yellow" || spell == "fat rat in to yellow") {
      spellCorrect.style.visibility = 'visible';
      spellIncorrect.style.visibility = 'hidden';
    } else {
