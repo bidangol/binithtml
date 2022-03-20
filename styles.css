@@ -54,9 +54,21 @@ svg {
 }
 
 .space{
-  display:inline-block; width: 68;
+  display:inline-block;width:68;
 }
 
 .lespace{
-  display:inline-block; width: 58;
+  display:inline-block;width:58;
+}
+
+.andin {
+  display:inline-block;width:32;
+}
+
+.ENGs {
+  display:inline-block;width:9;
+}
+
+.font {
+  font-family:sans-serif;
 }
