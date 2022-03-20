@@ -48,3 +48,15 @@ svg {
 .backbook {
   font-size:30;background-color:#2188b8;color:white;font-family:sans-serif;
 }
+
+.white {
+  color:white
+}
+
+.space{
+  display:inline-block; width: 68;
+}
+
+.lespace{
+  display:inline-block; width: 58;
+}
