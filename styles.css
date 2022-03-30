@@ -72,3 +72,7 @@ svg {
 .font {
   font-family:sans-serif;
 }
+
+.title {
+  color:red;text-align:center;
+}
