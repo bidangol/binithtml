@@ -18,7 +18,7 @@ grd.addColorStop(1,"black");
 
 // Fill with gradient
 ctx.fillStyle = grd;
-ctx.fillRect(0,0,135,160);
+ctx.fillRect(0,0,135,133);
 ctx.fillStyle = "white";
 ctx.font = "12px Comic Sans MS";
 
@@ -55,4 +55,4 @@ grd.addColorStop(1,"black");
 
 // Fill with gradient
 ctx.fillStyle = grd;
-ctx.fillRect(0,0,67,160);
+ctx.fillRect(0,0,102,160);
