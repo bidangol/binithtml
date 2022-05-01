@@ -36,6 +36,5 @@ const canvasRed = document.getElementById("redDeath");
 const ctxRed = canvasRed.getContext("2d");
    
 ctxRed.beginPath();
-ctxRed.bezierCurveTo(100, 334, 210, 290, 195, 90, 250, 100) 
-ctxRed.stroke();
+ctxRed.bezierCurveTo(100, 334, 210, 290, 195, 90, 250, 100); ctxRed.stroke();
 
