@@ -30,3 +30,12 @@ ctx.lineTo(270,45);
 ctx.lineTo(230,10);
 ctx.lineTo(275,30);
 ctx.stroke();
+
+
+const canvasRed = document.getElementById("redDeath");
+const ctxRed = canvasRed.getContext("2d");
+   
+ctxRed.beginPath();
+ctxRed.bezierCurveTo(100, 334, 210, 290, 195, 90, 250, 100) 
+ctxRed.stroke();
+
