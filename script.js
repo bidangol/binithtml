@@ -1,4 +1,36 @@
 console.log('hello!')
+var count = 0;
+var urls = [
+  "https://www.youtube.com/watch?v=CehPixdKUuE",
+  "https://www.youtube.com/watch?v=Q17AsUCV-JA&t=7s",
+  "https://www.youtube.com/watch?v=TDklFp8-7oU",
+  "https://www.youtube.com/watch?v=9y9ckBkK6Wc",
+  "https://www.youtube.com/watch?v=1w2JQbgmJ-Q",
+  "https://www.youtube.com/watch?v=xWYPJ7nrTpI",
+  "https://www.youtube.com/watch?v=fkNnXl2XPb0",
+];
+function openVideo() {
+  var url = urls[count % urls.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls = [
+  "https://www.youtube.com/watch?v=C_0Ho6YzT84",
+  "https://www.youtube.com/watch?v=oIWOqmGR5jI",
+  "https://www.youtube.com/watch?v=TDklFp8-7oU",
+  "https://www.youtube.com/watch?v=9y9ckBkK6Wc",
+  "https://www.youtube.com/watch?v=1w2JQbgmJ-Q",
+  "https://www.youtube.com/watch?v=xWYPJ7nrTpI",
+  "https://www.youtube.com/watch?v=fkNnXl2XPb0",
+];
+function openVideo() {
+  var url = urls[count % urls.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
 
 function checkAnswer() {
 
@@ -137,3 +169,5 @@ console.log("llymolly");
 console.log("Have r");
 var rharry = Family.filter(name => name.includes("r"));
 console.log("rharry");
+
+
