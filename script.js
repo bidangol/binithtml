@@ -1,6 +1,6 @@
 console.log('hello!')
 var count = 0;
-var urls = [
+var urls1 = [
   "https://www.youtube.com/watch?v=CehPixdKUuE",
   "https://www.youtube.com/watch?v=Q17AsUCV-JA&t=7s",
   "https://www.youtube.com/watch?v=TDklFp8-7oU",
@@ -9,24 +9,94 @@ var urls = [
   "https://www.youtube.com/watch?v=xWYPJ7nrTpI",
   "https://www.youtube.com/watch?v=fkNnXl2XPb0",
 ];
-function openVideo() {
-  var url = urls[count % urls.length];
+function openVideo1() {
+  let url = urls1[count % urls1.length];
   console.log(url);
   window.open(url, '_blank').focus();
   count++;
 }
 
-var urls = [
-  "https://www.youtube.com/watch?v=C_0Ho6YzT84",
-  "https://www.youtube.com/watch?v=oIWOqmGR5jI",
-  "https://www.youtube.com/watch?v=TDklFp8-7oU",
-  "https://www.youtube.com/watch?v=9y9ckBkK6Wc",
-  "https://www.youtube.com/watch?v=1w2JQbgmJ-Q",
-  "https://www.youtube.com/watch?v=xWYPJ7nrTpI",
-  "https://www.youtube.com/watch?v=fkNnXl2XPb0",
+var urls2 = [
+  "https://www.youtube.com/watch?v=ZwrKskD_LS0",
+  "https://www.youtube.com/watch?v=VLQjC8vBRHI",
+];
+function openVideo2() {
+  let url = urls2[count % urls2.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls3 = [
+  "https://www.youtube.com/watch?v=z52u__VxmBA",
+  "https://www.youtube.com/watch?v=LVbw7lUoe4o",
+];
+function openVideo3() {
+  let url = urls3[count % urls3.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls4 = [
+  "https://www.youtube.com/watch?v=VxHkWTesKmE",
+];
+function openVideo4() {
+  let url = urls4[count % urls4.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls5 = [
+  "https://www.youtube.com/watch?v=NC9qZSbd-EM",
+];
+function openVideo5() {
+  let url = urls5[count % urls5.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls6 = [
+  "https://www.youtube.com/watch?v=c95YKkIbTGg",
+  "https://www.youtube.com/watch?v=yjipAlQKwgI",
+  "https://www.youtube.com/watch?v=fzl3HsjYRcU",
+  "https://www.youtube.com/watch?v=Up7TU2t7_8g",
+  "https://www.youtube.com/watch?v=S279aKNI3JM",
+];
+function openVideo6() {
+  let url = urls6[count % urls6.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls4 = [
+  "https://www.youtube.com/watch?v=s3_CnP8eyCo",
+];
+function openVideo4() {
+  let url = urls4[count % urls4.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls5 = [
+  "https://www.youtube.com/watch?v=Zweo0Q_eM50",
+];
+function openVideo5() {
+  let url = urls5[count % urls5.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
+var urls6 = [
+  "https://www.youtube.com/watch?v=0Dpu1_mkVQE",
 ];
 function openVideo() {
-  var url = urls[count % urls.length];
+  let url = urls6[count % urls6.length];
   console.log(url);
   window.open(url, '_blank').focus();
   count++;
