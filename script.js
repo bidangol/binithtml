@@ -95,7 +95,7 @@ function openVideo5() {
 var urls6 = [
   "https://www.youtube.com/watch?v=0Dpu1_mkVQE",
 ];
-function openVideo() {
+function openVideo6() {
   let url = urls6[count % urls6.length];
   console.log(url);
   window.open(url, '_blank').focus();
