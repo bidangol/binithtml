@@ -102,6 +102,16 @@ function openVideo6() {
   count++;
 }
 
+var urls6 = [
+  "https://www.youtube.com/watch?v=yXaquba5BKA",
+];
+function openVideo6() {
+  let url = urls6[count % urls6.length];
+  console.log(url);
+  window.open(url, '_blank').focus();
+  count++;
+}
+
 function checkAnswer() {
 
   // price question
