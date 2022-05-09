@@ -38,3 +38,11 @@ const ctxRed = canvasRed.getContext("2d");
 ctxRed.beginPath();
 ctxRed.bezierCurveTo(100, 334, 210, 290, 195, 90, 250, 100); ctxRed.stroke();
 
+
+
+const canvasdragon = document.getElementById("imaginationDragons");
+const ctxdragon = canvasRed.getContext("2d");
+   
+ctxRed.beginPath();
+ctxRed.bezierCurveTo(450, 334, 210, 990, 195, 200, 590, 100); ctxRed.stroke();
+
