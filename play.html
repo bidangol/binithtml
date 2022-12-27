@@ -4,7 +4,7 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script>
     function roll() {
-      let number = Math.floor(Math.random() * 6) + 1;
+      let number = Math.floor(Math.random() * 12) + 1;
       console.log("Rolling a dice: ", number);
       document.getElementById("dice").innerHTML = number;
     }
@@ -14,7 +14,7 @@
   <h1>Play game</h1>
   <h2 id="dice" style="text-align:center">6</h2>
 
-  <button onclick="roll()">Roll 1-6</button>
+  <button onclick="roll()">Roll 1-12</button>
   <hr>
 
   <a href="answer.html">Go back</a><br>
