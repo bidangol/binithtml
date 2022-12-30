@@ -158,7 +158,7 @@ function checkAnswer() {
    // hogwarts question
 
    var hogwarts = document.getElementById('hogwarts').value;
-   console.log(hogwarts);
+   console.log('hogwarts....', hogwarts);
    var hogwartsCorrect = document.getElementById("hogwartsCorrect");
    var hogwartsIncorrect = document.getElementById("hogwartsIncorrect");
    
@@ -173,7 +173,7 @@ function checkAnswer() {
      // what question
 
      var what = document.getElementById('what').value;
-   console.log(what);
+   console.log('what value: ', what);
    var whatCorrect = document.getElementById("whatCorrect");
    var whatIncorrect = document.getElementById("whatIncorrect");
    
@@ -189,7 +189,7 @@ function checkAnswer() {
    // spell question
 
    var spell = document.getElementById('spell').value;
-   console.log(spell);
+   console.log('spell value: ',spell);
    var spellCorrect = document.getElementById("spellCorrect");
    var spellIncorrect = document.getElementById("spellIncorrect");
    
